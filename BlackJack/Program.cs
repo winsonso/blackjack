@@ -51,9 +51,6 @@ namespace BlackJack
                 for (int i = 0; i < 2; i++)
                 {
                     player.DrawCard(deck.DealCard());
-                }
-                for (int i = 0; i < 2; i++)
-                {
                     dealer.DrawCard(deck.DealCard());
                 }
                 player.ShowCards();
